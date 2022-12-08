@@ -37,6 +37,10 @@ function animationLoop() {
     }
     function stop() {
         const elem = document.querySelector("#button")
-        main.className = "stop"
-    
+        main.className = "stop" 
+    }
+    if (running === false ) {
+
+    }
 }
+    
