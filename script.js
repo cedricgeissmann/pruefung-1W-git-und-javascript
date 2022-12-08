@@ -5,6 +5,8 @@ const svg = document.querySelector("#svg-field")
 
 let running = false
 loopCounter = 0
+let inside = 0
+let total = 0
 
 
 function start() {
@@ -27,6 +29,12 @@ function stop() {
 function animationLoop() {
     for(let loopCounter = 0; loopCounter < 1000; loopCounter + 100){
     
+        if(Math.sqrt(x*x + y*y)<=1){
+            let "fill" = "red"
+        } else {
+            let "fill" = "black"
+        }
+
     // Kommentiere hier (c)    
     // hier wird ein Element erstellt. Der Link von dem svg Element in der index.html Datei wird angegeben und der Name, der das neue Element in diesem svg Element erhalten soll.
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
