@@ -12,7 +12,7 @@ function start() {
 
 function animationLoop() {
     
-    // Kommentiere hier (c)    
+    // Sagt das das svg Element ein Kreis ist(c)    
     // 
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
