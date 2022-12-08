@@ -24,6 +24,15 @@ function animationLoop() {
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
+    dot.setAttribute("100")
+
+    if (Math.sqrt (x*x + y*y)) <=1  {
+        dot.setAttribute("fill", "red")
+     } 
+     
+    else if ((x*x + y*y)) > 1 {
+       dot.setAttribute("fill, black")
+    }
     // Kommentiere hier (e)
     // "Kreis wurde im svg angehängt"
     svg.appendChild(dot)
@@ -53,6 +62,14 @@ function stop () {
 
 function stop () {
     let running = false
+    let inside = 0
+    if (Math.sqrt(x*x + y*y)) <= 1 {
+        let inside = 0 + 1
+    }
+    let total = 0
+    if (new circle) {
+        let total = 0 + 1
+    }
     let loopCounter = 0 
     if (loopCounter = 0) {
         loopCounter = 0 + 1
@@ -63,7 +80,15 @@ function requestAnimationFrame () {
     if (loopCounter < 1000) {
         requestAnimationFrame
     }
+    let num = 4*(inside / total)
 }
+
+Element#Zahl = num.toFixed(4)
+
+// Kommentar hier (h)
+// "Es wird die Zahl von num berechnet"
+
+
 
 
 
