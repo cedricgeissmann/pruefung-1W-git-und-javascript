@@ -4,15 +4,20 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
+
 const inside = 0
 const total = 0
-
 let loopCounter = 0
+
+main = document.textContent("#zahl", num.toFixed(4))
+
 
 function start() {
     running = true
     loopCounter = loopCounter + 1
+    const num = 4 * (inside / total)
     window.requestAnimationFrame(animationLoop)
+    
 }
 
 function stop() {
@@ -41,11 +46,16 @@ function animationLoop() {
     dot.setAttribute("cx", x)
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
-    if (Math.sqrt(x*x + y*y ) <= 1){
-        dot.setAttribute("fill", "black")
+    if(Math.sqrt(x*x + y*y) <= 1){
+        
+        dot.setAttribute("fill" , "black")
+        inside = inside + 1
     }
     else {
+
         dot.setAttribute("fill", "black")
+        total = total + 1
+
     }
     
 
@@ -64,6 +74,7 @@ function loopCounter1000() {
     
     if (loopCounter < 1000){
         loopCounter = loopCounter + 1
+        let num = 4 * (inside / total)
         window.requestAnimationFrame(animationLoop)
     }
 }
