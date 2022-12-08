@@ -10,6 +10,12 @@ function start() {
     window.requestAnimationFrame(animationLoop)
 }
 
+function stop() {
+    running =false
+    loopCounter = 0 (let i++)
+    window.requestAnimationFrame(loopCounter < 1000)
+}
+
 function animationLoop() {
     
     // Sagt das das svg Element ein Kreis ist(c)    
