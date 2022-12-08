@@ -30,6 +30,7 @@ function animationLoop() {
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
     // Kommentiere hier (e)
+    // hänge das erstellte Element circle, mit den weiteren Bestimmungen die es hat von 2d, an das svg im html an
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
