@@ -11,6 +11,7 @@ function start() {
     running = true
     inside = 0
     total = 0
+    num = 4* (inside / total)
     window.requestAnimationFrame(animationLoop)
 }
 function stop() {
