@@ -11,7 +11,8 @@ function start() {
 
 function animationLoop() {
     
-    //  
+    //  Hier wird mit diesem Link svg circle verlinkt
+    //
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // 
