@@ -1,7 +1,6 @@
 
-// Kommentiere hier (b)
-// 
-const svg = document.querySelector("#svg-field")
+// svg ist fixiert
+// es ist Global, in allen Funktionen geht es um svg
 
 let running = false
 
@@ -12,11 +11,10 @@ function start() {
 
 function animationLoop() {
     
-    // Kommentiere hier (c)    
-    // 
+    //  
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
-    // Kommentiere hier (d)
+    // 
     // 
     let x = Math.random()
     let y = Math.random()
