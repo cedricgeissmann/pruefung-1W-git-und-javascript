@@ -1,4 +1,4 @@
-loopcounter = 0
+
 
 
 
@@ -14,6 +14,7 @@ function start() {
     
     
     
+    
 }
 
 function stop() {
@@ -25,7 +26,7 @@ function stop() {
 
 function animationLoop() {
     if ( requestAnimationFrame < 1000) {
-        
+
     }
     
     // Kommentiere hier (c)    
@@ -49,4 +50,4 @@ function animationLoop() {
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
-}
+} 
