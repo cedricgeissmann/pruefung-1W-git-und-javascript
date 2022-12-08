@@ -36,6 +36,6 @@ function animationLoop() {
 }
 
 function stop() {
-    running = true
+    running = false
     window.requestAnimationFrame(animationLoop)
 }
