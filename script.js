@@ -10,6 +10,20 @@ function start() {
     window.requestAnimationFrame(animationLoop)
 }
 
+function stop() {
+    running = true
+    loopCounter=0
+    loopCounter=loopcounter+1
+    if (loopcounter<1000 ){
+let (window.requestAnimationFrame(animationLoop))
+
+    }
+    window.requestAnimationFrame(animationLoop)
+}
+
+
+
+
 function animationLoop() {
     
     // Kommentiere hier (c)    
