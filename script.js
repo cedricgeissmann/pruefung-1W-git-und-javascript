@@ -41,7 +41,7 @@ function start() {
    
     dx = 1
 
-    window.requestAnimationFrame(update)
+    window.requestAnimationFrame(start)
 }
 
 const button = stop
