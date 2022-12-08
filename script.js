@@ -4,9 +4,11 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
+let loopCounter = 0
 
 function start() {
     running = true
+    loopCounter++
     window.requestAnimationFrame(animationLoop)
 }
 
@@ -35,6 +37,7 @@ function animationLoop() {
     // Kommentiere hier (f)
     // Wenn running dann wiederhole diese Funktion
     if ( running === true ) {
+        loopCounter++
         window.requestAnimationFrame(animationLoop)
     }
 }
