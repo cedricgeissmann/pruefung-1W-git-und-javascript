@@ -16,6 +16,8 @@ function animationLoop(){
     running = true
     inside = 0 if( Math.sqrt(x*x + y*y)<=1 i++)
     total = 0 (let i++)
+    num = 4* (inside/ outside)
+    window.requestAnimationFrame()
 
 }
 
