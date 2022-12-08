@@ -24,7 +24,7 @@ function animationLoop() {
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
-    // Kommentiere hier (e)
+    // Der Punkt wird dem svg angehängt (e)
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
