@@ -13,6 +13,7 @@ function start() {
     window.requestAnimationFrame(animationLoop)
     
     
+    
 }
 
 function stop() {
@@ -23,6 +24,9 @@ function stop() {
 }
 
 function animationLoop() {
+    if ( requestAnimationFrame < 1000) {
+        
+    }
     
     // Kommentiere hier (c)    
     // fester, nicht veränderbarer Wert
