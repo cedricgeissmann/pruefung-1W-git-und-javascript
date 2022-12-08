@@ -23,7 +23,7 @@ function animationLoop() {
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
-    // Kommentiere hier (e)
+    // Fügt Elemente an das Ende eines Fragments ein
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
