@@ -29,7 +29,7 @@ function animationLoop() {
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
-    // 
+    // "Hier wird auf Gleichheit geprüft"
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
