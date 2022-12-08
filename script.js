@@ -11,7 +11,7 @@ function start() {
 }
 
 function stop() {
-if ( running === false )
+if ( running = false )
 if ( loopCounter < 1000 )
 loopCounter = 0 
 counter = counter + 1 }
