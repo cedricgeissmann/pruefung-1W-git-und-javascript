@@ -85,6 +85,9 @@ function requestAnimationFrame () {
 
 Element#Zahl = num.toFixed(4)
 
+// Kommentar hier (h)
+// "Es wird die Zahl von num berechnet"
+
 
 
 
