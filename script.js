@@ -42,4 +42,9 @@ function stop() {
     if (loopCounter < 1000) {
         window.requestAnimationFrame(animationLoop)
     }
+    let num = animationLoop
+    if (num > animationLoop) {
+        num = num + 100
+    }
 }
+
