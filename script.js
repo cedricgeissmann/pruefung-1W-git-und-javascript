@@ -27,7 +27,7 @@ function animationLoop() {
     // Der Punkt wird dem svg angehängt (e)
     svg.appendChild(dot)
 
-    // Kommentiere hier (f)
+    // Sagt das die condition running richtig ist(f)
     // 
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
