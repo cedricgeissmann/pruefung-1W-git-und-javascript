@@ -52,4 +52,8 @@ function stop () {
     window.requestAnimationFrame(stop)
 }
 
+function stop () {
+    let running = false
+}
+
 
