@@ -14,6 +14,9 @@ function start() {
    
     running = true
     loopCounter = 100
+    if ( loopCounter < 1000 )
+    loopCounter = 0 
+    counter = counter + 1 
     if (counter = counter + 1); total = total + 1
     if (Math.sqrt(x*x + y*y <= 1)); inside = inside + 1
    window.requestAnimationFrame(animationLoop)
@@ -26,9 +29,9 @@ function stop() {
 
     if ( running = false )
 if ( loopCounter < 1000 )
+loopCounter = 100
+counter = counter + 1}
 
-loopCounter = 0 
-counter = counter + 1 }
 
 function animationLoop()  {
     
