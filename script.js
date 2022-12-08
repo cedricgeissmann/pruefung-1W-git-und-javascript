@@ -14,8 +14,8 @@ function animationLoop(){
     for (let i = 100; i > 0; i + 100 )
     let = Math.sqrt(x*x + y*y)<=1
     running = true
-    inside = 0
-    total = 0
+    inside = 0 if( Math.sqrt(x*x + y*y)<=1 i++)
+    total = 0 (let i++)
 
 }
 
