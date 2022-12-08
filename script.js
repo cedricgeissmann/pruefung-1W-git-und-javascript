@@ -55,6 +55,7 @@ function animationLoop() {
 
     
         window.requestAnimationFrame(animationLoop)
+        
     }
 
     }
