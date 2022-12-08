@@ -49,6 +49,7 @@ function animationLoop() {
     if ( running === true ) {
         if (loopCounter < 1000) {
         loopCounter++
+        // 4h) Die Zahl PI wird berechnet
         let num = 4 * (inside / total)
         document.querySelector("#zahl").textContent = num.toFixed(4)
         window.requestAnimationFrame(animationLoop)
