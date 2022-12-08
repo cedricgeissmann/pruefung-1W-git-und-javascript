@@ -10,10 +10,12 @@ function start() {
     window.requestAnimationFrame(animationLoop)
 }
 
-function stop() {}
+function stop() {
 if ( running === false )
+(loopCounter = 0) 
+counter = counter + 1 }
 
-function animationLoop() {
+function animationLoop()  {
     
     // Kommentiere hier (c)    
     // Man kreiert ein Element und zwar ein circle.
