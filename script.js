@@ -25,6 +25,7 @@ function stop() {
 
 
 function animationLoop() {
+    for(let loopCounter = 0; loopCounter < 1000; loopCounter + 100){
     
     // Kommentiere hier (c)    
     // hier wird ein Element erstellt. Der Link von dem svg Element in der index.html Datei wird angegeben und der Name, der das neue Element in diesem svg Element erhalten soll.
@@ -51,4 +52,5 @@ function animationLoop() {
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
+}
 }
