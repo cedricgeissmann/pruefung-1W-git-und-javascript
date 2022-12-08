@@ -13,7 +13,7 @@ function start() {
 function animationLoop() {
     
     // Kommentiere hier (c)    
-    // 
+    // Es ist wieder eine globale Variable, also zählt es immer. Das create element lässt einen Kreis entstehen.
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
