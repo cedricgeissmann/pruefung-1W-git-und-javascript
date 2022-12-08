@@ -35,9 +35,21 @@ function animationLoop() {
     }
 }
 
+const button = start
+
 function start () {
    
     dx = 1
 
     window.requestAnimationFrame(start)
 }
+
+const button = stop
+
+function stop () {
+    dx = 1 
+
+    window.requestAnimationFrame(stop)
+}
+
+
