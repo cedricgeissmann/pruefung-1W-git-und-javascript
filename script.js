@@ -25,6 +25,14 @@ function animationLoop() {
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
     dot.setAttribute("100")
+
+    if (Math.sqrt (x*x + y*y)) <=1  {
+        dot.setAttribute("fill", "red")
+     } 
+     
+    else if ((x*x + y*y)) > 1 {
+       dot.setAttribute("fill, black")
+    }
     // Kommentiere hier (e)
     // "Kreis wurde im svg angehängt"
     svg.appendChild(dot)
