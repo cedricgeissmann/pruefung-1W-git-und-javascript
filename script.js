@@ -1,6 +1,6 @@
 
 // Kommentiere hier (b)
-// 
+// Es zeigt eine globale variable. Das heisst, das es immer gilt und man es nicht in jeder Funktion neu eingeben muss. Queery Selector zeigt das man es aus dem html geholt hat. 
 const svg = document.querySelector("#svg-field")
 
 let running = false
