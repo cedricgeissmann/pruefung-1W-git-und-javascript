@@ -17,7 +17,7 @@ function animationLoop() {
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
-    // 
+    // "Hier werden die details des Kreises angezeigt, was er alles machen soll, wo er sich befinden soll usw."
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
