@@ -4,7 +4,8 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
- let inside = 0
+ let loopCounter = 0
+let inside = 0
 let total = 0
 let num = 4* (inside / total)
 
@@ -12,9 +13,9 @@ let num = 4* (inside / total)
 function start() {
    
     running = true
-    window.requestAnimationFrame(animationLoop)
     loopCounter = 100
     if (counter = counter + 1); total = total + 1
+    window.requestAnimationFrame(animationLoop)
 if (Math.sqrt(x*x + y*y <= 1)); inside = inside + 1
  
     
