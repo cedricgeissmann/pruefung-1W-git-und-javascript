@@ -9,6 +9,9 @@ let running = false
 
 function start() {
     running = true
+    inside = 0
+    total = 0
+    num = 4* (inside / total)
     window.requestAnimationFrame(animationLoop)
 }
 function stop() {
@@ -20,6 +23,7 @@ function stop() {
         window.requestAnimationFrame(animationLoop)
     }
 }
+
 
 function animationLoop() {
     
@@ -36,6 +40,8 @@ function animationLoop() {
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
     // Kommentiere hier (e)
+    //Die obrigen Bedingungen werden im SVG angehängt.
+
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
@@ -43,4 +49,10 @@ function animationLoop() {
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
+}
+function update(){
+animationLoop = animationLoop + 100 
+{let.setAttribute  ("fill", "red")
+Math.sqrt(x*x+y*y)<= 1 }
+let.setAttribute("fill", "black")
 }
