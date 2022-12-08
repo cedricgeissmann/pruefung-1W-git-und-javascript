@@ -12,7 +12,7 @@ function start() {
     window.requestAnimationFrame(animationLoop)
 }
 function stop() {
-    running = stop
+    running = false 
     window.requestAnimationFrame(animationLoop)
 }
 
