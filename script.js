@@ -24,6 +24,13 @@ function stop() {
 }
 
 function animationLoop() {
+
+    if (animationLoop > 0){
+        animationLoop = +100 "circle"
+        if("circle" = Math.sqrt(x*x + y*y) <= 1){
+        dot.setAttribute("fill", "red")
+        }
+    }
     
     // Kommentiere hier (c)    
     // Es erstellt ein Element mit einem Namen welcher in diesem Fall circle wäre.
