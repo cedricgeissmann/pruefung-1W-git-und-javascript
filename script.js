@@ -54,6 +54,9 @@ function stop () {
 function stop () {
     let running = false
     let loopCounter = 0 
+    if (loopCounter = 0) {
+        loopCounter = 0 + 1
+    }
 }
 
 
