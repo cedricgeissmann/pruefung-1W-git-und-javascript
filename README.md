@@ -1,3 +1,3 @@
 # Prüfung 1W
 
-Dies ist die Prüfung von Vorname Nachname.
+Dies ist die Prüfung von Lewis Jäger.
