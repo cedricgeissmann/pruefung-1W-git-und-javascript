@@ -13,6 +13,8 @@ function start() {
 }
 function stop() {
     running = false 
+    loopCounter = 0
+    loopCounter = loopCounter + 1
     window.requestAnimationFrame(animationLoop)
 }
 
