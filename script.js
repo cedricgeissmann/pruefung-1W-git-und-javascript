@@ -8,6 +8,12 @@ let running = false
 function start() {
     running = true
     window.requestAnimationFrame(animationLoop)
+    
+    
+}
+
+function stop() {
+    
 }
 
 function animationLoop() {
