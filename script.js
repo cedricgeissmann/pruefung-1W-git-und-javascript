@@ -34,3 +34,8 @@ function animationLoop() {
         window.requestAnimationFrame(animationLoop)
     }
 }
+
+function stop() {
+    running = true
+    window.requestAnimationFrame(animationLoop)
+}
