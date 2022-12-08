@@ -37,9 +37,27 @@ function animationLoop() {
 
 function stop() {
     running = false
+    inside = 0
+    total = 0
     loopCounter = 0
     loopCounter = loopCounter + 1
+    num = 4 * (inside / total)
     if (loopCounter < 1000) {
         window.requestAnimationFrame(animationLoop)
     }
+    let num = animationLoop
+    if (num > animationLoop) {
+        num = num + 100
+    }
+    if (Math.sqrt(x*x + y*y)) {
+        dot.setAttribute("fill", "red")
+    }
+    dot.setAttribute("fill", "black")
+    if (dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")) {
+        total = total + 1
+    } else if (Math.sqrt(x*x + y*y) <= 1) {
+        inside = inside + 1
+    }
+
 }
+
