@@ -15,6 +15,8 @@ function animationLoop() {
     //
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
+
+    
     // Hier überschreibt setAttribute EIgenschaften von Objekte, für die es kein äquivalentes HTML-Attribute gibt
     // mit Math.random kann man zufällige Zahlen zwischen 0 und 1 generieren
     let x = Math.random()
@@ -29,6 +31,10 @@ function animationLoop() {
     // hier checkt man ob die Variabel true oder false ist
     // 
     if ( running === true ) {
+        let inside= 0
+        let total=0
+        if(inside===total)
+
         window.requestAnimationFrame(animationLoop)
     }
     function start() {
@@ -40,7 +46,7 @@ function animationLoop() {
         main.className = "stop" 
     
     if (running === false ) 
-        let loopCounter=0
+    let loopCounter=0
         loopCounter=loopCounter + 1
         if (loopCounter < 1000) 
         prit= ("loopCounter")
