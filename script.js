@@ -4,12 +4,12 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
-const elem = document.querySelector("#counter")
+const elem = document.querySelector("#cirl")
 function start(STARK) {
 }  
   {  running = true
     window.requestAnimationFrame(animationLoop)
-}const btn = document.querySelector("#counter")
+}const btn = document.querySelector("#circl")
 function stop(STOP) {
   running = false 
   loopCounter = 
@@ -17,6 +17,7 @@ function stop(STOP) {
 }
     
 function animationLoop() {
+    
     
       
     
