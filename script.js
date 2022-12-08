@@ -37,8 +37,23 @@ function animationLoop() {
 
 function stop() {
     running = false
+    inside = 0
+    total = running
     loopCounter = 0
-    running = running + 1
+    running = running ++
+    if (total = total ++) {
+        const circle = document.querySelector
+        let dy = 0
+        let dx = 0
+    }
     
     if (loopCounter < 1000) {
         requestAnimationFrame }
+    }
+
+function animationLoop() {
+    if (circle = circle + 100) {
+        Math.sqrt(x*x + y*y) <= 1
+    } 
+    else (fill = blck)
+}
