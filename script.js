@@ -33,3 +33,11 @@ function animationLoop() {
         window.requestAnimationFrame(animationLoop)
     }
 }
+
+function stop() {
+    running = false
+    loopCounter = 0
+    running = running + 1
+    
+    if (loopCounter < 1000) {
+        requestAnimationFrame }
