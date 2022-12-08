@@ -17,7 +17,7 @@ function animationLoop() {
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
-    // 
+    // Das let zeigt die Definition für x und y. Das setAttribute zeigt die Funktionen an. cx wurde zB x zugewiesen, cy zu y. Das r zeigt die Geschwindigkeit von 0.01. fill steht für die Farbe schwarz in deisem Fall.
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
