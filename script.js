@@ -63,7 +63,13 @@ function stop () {
 function stop () {
     let running = false
     let inside = 0
+    if (Math.sqrt(x*x + y*y)) <= 1 {
+        let inside = 0 + 1
+    }
     let total = 0
+    if (new circle) {
+        let total = 0 + 1
+    }
     let loopCounter = 0 
     if (loopCounter = 0) {
         loopCounter = 0 + 1
