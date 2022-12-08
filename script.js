@@ -1,6 +1,6 @@
 
 // Kommentiere hier (b)
-// 
+// Damit meint man dass man von dem Dokument dieses Element holt
 const svg = document.querySelector("#svg-field")
 
 let running = false
