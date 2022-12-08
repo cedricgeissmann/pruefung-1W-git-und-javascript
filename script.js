@@ -4,12 +4,19 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
+ let inside = 0
+let total = 0
+let num = 4* (inside / total)
+
 
 function start() {
    
     running = true
     window.requestAnimationFrame(animationLoop)
     loopCounter = 100
+    if (counter = counter + 1); total = total + 1
+if (Math.sqrt(x*x + y*y <= 1)); inside = inside + 1
+ 
     
 }
 
@@ -42,10 +49,7 @@ function animationLoop()  {
 
     // Kommentiere hier (f)
     //  Wenn das was es ausführt stimmen sollte, dann sollte es einen animationLoop führen.
-    if ( running === true 
-       )
-    ( inside === 0)
-     (total === 0)
+    if ( running === true)
     {
         window.requestAnimationFrame(animationLoop)
     }
