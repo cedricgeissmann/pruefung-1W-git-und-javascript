@@ -12,6 +12,8 @@ function start() {
 
 function stop() {
     running =false
+    loopCounter = 0 (let i++)
+    window.requestAnimationFrame()
 }
 
 function animationLoop() {
