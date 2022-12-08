@@ -13,12 +13,15 @@ function animationLoop(){
     loopCounter = 0
     for (let i = 100; i > 0; i + 100 )
     let = Math.sqrt(x*x + y*y)<=1
+    running = true
+    inside = 0
+    total = 0
 
 }
 
 function stop() {
     running =false
-    loopCounter = 0 (let i++)
+    loopCounter = 0 
     window.requestAnimationFrame(loopCounter < 1000)
 }
 
