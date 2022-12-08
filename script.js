@@ -46,5 +46,10 @@ function stop() {
     if (num > animationLoop) {
         num = num + 100
     }
+    if (Math.sqrt(x*x + y*y)) {
+        dot.setAttribute("fill", "red")
+    }
+    dot.setAttribute("fill", "black")
+
 }
 
