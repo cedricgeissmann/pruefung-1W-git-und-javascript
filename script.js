@@ -12,7 +12,8 @@ function start() {
 
 function stop() {
 if ( running === false )
-(loopCounter = 0) 
+if ( loopCounter < 1000 )
+loopCounter = 0 
 counter = counter + 1 }
 
 function animationLoop()  {
