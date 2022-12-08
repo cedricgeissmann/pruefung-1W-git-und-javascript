@@ -2,21 +2,24 @@
 //Eine eckige Fläche mit etwas das rennt und die funktion ist richtig.
 // 
 const svg = document.querySelector("#svg-field")
-
+const Element = document.querySelector("#cirl")
 let running = false
-const elem = document.querySelector("#counter")
+
 function start(STARK) {
 }  
   {  running = true
     window.requestAnimationFrame(animationLoop)
-}const btn = document.querySelector("#counter")
+}
+const elem = document.querySelector("#cirl")
 function stop(STOP) {
   running = false 
-  loopCounter = 
-  requestAnimationFrame(loopCounter < 1000)
+  loopCounter = circle
+  requestAnimationFrame()
 }
     
-function animationLoop() {
+function animationLooploop() {
+
+    
     
       
     
