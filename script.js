@@ -13,7 +13,7 @@ function start() {
 function animationLoop() {
     
     // Kommentiere hier (c)    
-    // 
+    // "Es wird für alle darunterstehenden Zeilen übernomen"
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
