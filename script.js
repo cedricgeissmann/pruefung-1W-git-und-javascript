@@ -45,6 +45,12 @@ function animationLoop() {
     // Kommentiere hier (f)
     // wenn running gelich wahr ist (sobald man auf Start klickt ändert es sich auf true), dann ruft es das requestAnimationFrame auf, welche die Funktion animationLoop ausführt
     if ( running === true ) {
+        window.requestAnimationFrame(loopCounter1000)
+    }
+}
+
+function loopCounter1000() {
+    if (loopCounter < 1000){
         loopCounter = loopCounter + 1
         window.requestAnimationFrame(animationLoop)
     }
