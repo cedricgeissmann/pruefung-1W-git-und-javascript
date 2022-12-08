@@ -21,6 +21,7 @@ function stop() {
     }
 }
 
+
 function animationLoop() {
     
     // Kommentiere hier (c)    
@@ -43,4 +44,10 @@ function animationLoop() {
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
+}
+function update(){
+animationLoop = animationLoop + 100 
+{let.setAttribute  ("fill", "red")
+Math.sqrt(x*x+y*y)<= 1 }
+let.setAttribute("fill", "black")
 }
