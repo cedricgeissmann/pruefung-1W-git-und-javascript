@@ -35,5 +35,8 @@ function animationLoop() {
         const elem = document.querySelector("#script")
         main.className = "start"
     }
+    function stop() {
+        const elem = document.querySelector("#script")
+        main.className = "stop"
     
 }
