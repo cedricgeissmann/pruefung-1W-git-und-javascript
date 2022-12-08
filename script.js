@@ -17,7 +17,12 @@ function animationLoop() {
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
-    // 
+    // x soll eine zufällig gewählte mathematische Zahl sein
+    // y soll eine zufällig gewählte mathematische Zahl sein
+    // setzte bei dot ein neues Attribut für cx ein, für cx kommt die zufällig erstellte zahl x
+    // setzte bei dot ein neues Attribut für cy ein, für cy kommt die zufällig erstellte zahl y
+    // setzte bei dot ein neues Attribut für r ein, für r kommt die Zahl 0.01
+    // setzte bei dot ein neues Attribut für fill ein, für fill kommt die Farbe "black"
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
