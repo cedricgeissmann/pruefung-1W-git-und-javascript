@@ -1,6 +1,6 @@
 
 // Kommentiere hier (b)
-// 
+// svg als variabel von const. wenn der wert falsch ist, wird als wahr ausgewertet.
 const svg = document.querySelector("#svg-field")
 
 let running = false
@@ -13,11 +13,11 @@ function start() {
 function animationLoop() {
     
     // Kommentiere hier (c)    
-    // 
+    // cost mit der variablem dot zeigt die folgende webseite an
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
-    // 
+    // x und y sind wird irgedeine zahl zugeordnet 
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
@@ -25,10 +25,11 @@ function animationLoop() {
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
     // Kommentiere hier (e)
+    // wird im svg angehängt
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
-    // 
+    // wenn die variable richtig ist, kommt eine animation
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
