@@ -38,9 +38,14 @@ function animationLoop() {
     function stop() {
         const elem = document.querySelector("#button")
         main.className = "stop" 
+    
+    if (running === false ) 
+        let loopCounter=0
+        loopCounter=loopCounter + 1
+    
+        window.requestAnimationFrame(animationLoop)
     }
-    if (running === false ) {
 
     }
-}
+
     
