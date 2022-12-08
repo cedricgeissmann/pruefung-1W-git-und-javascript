@@ -1,35 +1,83 @@
 
 // Kommentiere hier (b)
-// 
+// Allgemeine variabel, svg sei gleich, das geholte element aus dem Dokument mit der id "svg-field".
 const svg = document.querySelector("#svg-field")
 
 let running = false
 
+const inside = 0
+const total = 0
+let loopCounter = 0
+
+main = document.textContent("#zahl", num.toFixed(4))
+
+
 function start() {
     running = true
+    loopCounter = loopCounter + 1
+    const num = 4 * (inside / total)
     window.requestAnimationFrame(animationLoop)
+    
 }
 
-function animationLoop() {
-    
+function stop() {
+    running = false
+}
+
+function animationLoop() {    
     // Kommentiere hier (c)    
-    // 
+    // Allgemeine variabel dot, sei gleich, das neu erstelltes Element circle
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
+    let dots = dot
     
+     // dot soll dots sein, dots sollen dots + 100 sein, (100 kreise)
+
     // Kommentiere hier (d)
-    // 
+    // x soll eine zufällig gewählte mathematische Zahl sein
+    // y soll eine zufällig gewählte mathematische Zahl sein
+    // setzte bei dot ein neues Attribut für cx ein, für cx kommt die zufällig erstellte zahl x
+    // setzte bei dot ein neues Attribut für cy ein, für cy kommt die zufällig erstellte zahl y
+    // setzte bei dot ein neues Attribut für r ein, für r kommt die Zahl 0.01
+    // setzte bei dot ein neues Attribut für fill ein, für fill kommt die Farbe "black"
+    
+    
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
-    dot.setAttribute("fill", "black")
+    if(Math.sqrt(x*x + y*y) <= 1){
+        
+        dot.setAttribute("fill" , "black")
+        inside = inside + 1
+    }
+    else {
+
+        dot.setAttribute("fill", "black")
+        total = total + 1
+
+    }
+    
+
+
     // Kommentiere hier (e)
+    // hänge das erstellte Element circle, mit den weiteren Bestimmungen die es hat von 2d, an das svg im html an
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
-    // 
+    // wenn running gelich wahr ist (sobald man auf Start klickt ändert es sich auf true), dann ruft es das requestAnimationFrame auf, welche die Funktion animationLoop ausführt
     if ( running === true ) {
+        window.requestAnimationFrame(loopCounter1000)
+        }
+    }
+function loopCounter1000() {
+    
+    if (loopCounter < 1000){
+        loopCounter = loopCounter + 1
+        let num = 4 * (inside / total)
         window.requestAnimationFrame(animationLoop)
     }
 }
+
+
+
