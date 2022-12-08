@@ -1,5 +1,5 @@
 
-// Kommentiere hier (b)
+// Sagt das ein svg element enthalten ist (b)
 // 
 const svg = document.querySelector("#svg-field")
 
@@ -12,11 +12,11 @@ function start() {
 
 function animationLoop() {
     
-    // Kommentiere hier (c)    
+    // Sagt das das svg Element ein Kreis ist(c)    
     // 
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
-    // Kommentiere hier (d)
+    // Sagt wo sich der Punkt befindet und wie gross dieser ist (d)
     // 
     let x = Math.random()
     let y = Math.random()
@@ -24,10 +24,10 @@ function animationLoop() {
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
-    // Kommentiere hier (e)
+    // Der Punkt wird dem svg angehängt (e)
     svg.appendChild(dot)
 
-    // Kommentiere hier (f)
+    // Sagt das die condition running richtig ist(f)
     // 
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
