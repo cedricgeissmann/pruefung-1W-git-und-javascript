@@ -31,4 +31,9 @@ function animationLoop() {
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
+    function start() {
+        const elem = document.querySelector("#script")
+        main.className = "start"
+    }
+    
 }
