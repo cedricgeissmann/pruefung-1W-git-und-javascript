@@ -42,7 +42,11 @@ function animationLoop()  {
 
     // Kommentiere hier (f)
     //  Wenn das was es ausführt stimmen sollte, dann sollte es einen animationLoop führen.
-    if ( running === true ) {
+    if ( running === true 
+       )
+    ( inside === 0)
+     (total === 0)
+    {
         window.requestAnimationFrame(animationLoop)
     }
 }
