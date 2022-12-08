@@ -5,6 +5,8 @@ const svg = document.querySelector("#svg-field")
 
 let running = false
 let loopCounter = 0
+let inside = 0
+let total = 0
 
 function start() {
     running = true
