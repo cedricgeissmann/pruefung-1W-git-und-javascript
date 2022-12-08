@@ -17,7 +17,7 @@ function animationLoop() {
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
-    // 
+    // Setze die Attribute für den Kreis
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
