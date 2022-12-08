@@ -9,10 +9,21 @@ function start() {
     running = true
     window.requestAnimationFrame(animationLoop)
 }
+function animationLoop(){
+    loopCounter = 0
+    for (let i = 100; i > 0; i + 100 )
+    let = Math.sqrt(x*x + y*y)<=1
+    running = true
+    inside = 0 if( Math.sqrt(x*x + y*y)<=1 i++)
+    total = 0 (let i++)
+    num = 4* (inside/ outside)
+    window.requestAnimationFrame()
+
+}
 
 function stop() {
     running =false
-    loopCounter = 0 (let i++)
+    loopCounter = 0 
     window.requestAnimationFrame(loopCounter < 1000)
 }
 
@@ -24,6 +35,7 @@ function animationLoop() {
     
     // Sagt wo sich der Punkt befindet und wie gross dieser ist (d)
     // 
+
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
