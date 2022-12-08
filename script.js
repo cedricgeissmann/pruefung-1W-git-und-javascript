@@ -4,12 +4,33 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
+inside = 0
+total = 0
 
-function start() {
+
+
+function START() {
     running = true
     window.requestAnimationFrame(animationLoop)
 }
-
+function STOP() {
+    running = false
+    window.requestAnimationFrame(animationLoop)
+}
+function animationLoop(){  
+    repeatCounter = infinite 
+    per. repeat( circle*100)
+    per. repeat(total + 1)
+             
+         circle.setAttribute("fill", "black")    
+        if(
+            circle.setAttribute("Math.sqrt(x*x + y*y <= 1"))
+            circle.setAttribute("fill", "red")
+            inside.setAttribute(inside + 1)
+        
+         
+        
+        }
 function animationLoop() {
     
     // Kommentiere hier (c)    
@@ -27,9 +48,30 @@ function animationLoop() {
     // Kommentiere hier (e) Das svg von circle wird verlinked.
     svg.appendChild(dot)
 
+    num = 4*( inside/ total)
+
     // Kommentiere hier (f)
     // Wenn running richtig ist, soll die aniamtion abgespielt werden.
     if ( running === true ) {
-        window.requestAnimationFrame(animationLoop)
+        loopCounter = 0
+        for(let running = 0; running; i =i+1)
+        loopCounter = 0
+    
+        if(loopCountrer < 1000){
+                window.requestAnimationFrame(animationLoop)
+        
+      }
     }
+
+
+    
+
+
+    
+
+
+    
+
+
+
 }
