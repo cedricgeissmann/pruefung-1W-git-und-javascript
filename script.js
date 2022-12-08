@@ -42,6 +42,11 @@ function animationLoop() {
     if (running === false ) 
         let loopCounter=0
         loopCounter=loopCounter + 1
+        if (loopCounter < 1000) 
+        prit= ("loopCounter")
+        else if ( requestAnimationFrame>loopCounter)
+        print=("requestAnimationFrame")
+
     
         window.requestAnimationFrame(animationLoop)
     }
