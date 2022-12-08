@@ -9,6 +9,10 @@ function start() {
     running = true
     window.requestAnimationFrame(animationLoop)
 }
+function animationLoop(){
+    loopCounter = 0
+    for (let i = 100; i > 0; i + 100 )
+}
 
 function stop() {
     running =false
