@@ -8,11 +8,13 @@ let running = false
 function start() {
     running = true
     window.requestAnimationFrame(animationLoop)
+    loopCounter = 100
 }
 
 function stop() {
 if ( running = false )
 if ( loopCounter < 1000 )
+
 loopCounter = 0 
 counter = counter + 1 }
 
