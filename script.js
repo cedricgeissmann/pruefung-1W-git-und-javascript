@@ -11,6 +11,7 @@ function start() {
 }
 
 function stop() {}
+if ( running === false )
 
 function animationLoop() {
     
