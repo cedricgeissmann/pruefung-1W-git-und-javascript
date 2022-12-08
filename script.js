@@ -34,7 +34,7 @@ function animationLoop() {
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
-    // 
+    // wenn running gelich wahr ist (sobald man auf Start klickt ändert es sich auf true), dann ruft es das requestAnimationFrame auf, welche die Funktion animationLoop ausführt
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
