@@ -6,6 +6,7 @@ const svg = document.querySelector("#svg-field")
 let running = false
 let inside = 0
 let total = 0
+let num = 4 * (inside/total)
 
 function start() {
     running = true
