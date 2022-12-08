@@ -51,3 +51,6 @@ function animationLoop() {
         window.requestAnimationFrame(animationLoop)
     }
 } 
+
+//keine Zeit für Aufgabe 4
+   
