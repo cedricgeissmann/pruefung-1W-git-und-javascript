@@ -83,6 +83,8 @@ function requestAnimationFrame () {
     let num = 4*(inside / total)
 }
 
+Element#Zahl = num.toFixed(4)
+
 
 
 
