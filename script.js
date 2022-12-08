@@ -10,6 +10,12 @@ function start() {
     window.requestAnimationFrame(animationLoop)
 }
 
+function stop() {
+    running = false
+    window.requestAnimationFrame(cancelAnimationFrame)
+}
+
+
 function animationLoop() {
     
     // Kommentiere hier (c)    
