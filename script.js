@@ -16,7 +16,7 @@ function animationLoop() {
     // 
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
-    // Kommentiere hier (d)
+    // Sagt wo sich der Punkt befindet und wie gross dieser ist (d)
     // 
     let x = Math.random()
     let y = Math.random()
