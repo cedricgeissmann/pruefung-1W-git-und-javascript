@@ -4,9 +4,11 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
+let loopCounter = 0
 
 function start() {
     running = true
+    loopCounter = loopCounter + 1
     window.requestAnimationFrame(animationLoop)
 }
 
@@ -15,6 +17,9 @@ function stop() {
 }
 
 function animationLoop() {
+
+
+
     
     // Kommentiere hier (c)    
     // Allgemeine variabel dot, sei gleich, das neu erstelltes Element circle
@@ -40,6 +45,7 @@ function animationLoop() {
     // Kommentiere hier (f)
     // wenn running gelich wahr ist (sobald man auf Start klickt ändert es sich auf true), dann ruft es das requestAnimationFrame auf, welche die Funktion animationLoop ausführt
     if ( running === true ) {
+        loopCounter = loopCounter + 1
         window.requestAnimationFrame(animationLoop)
     }
 }
