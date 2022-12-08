@@ -30,7 +30,11 @@ function animationLoop() {
         dot.setAttribute("cx", x)
         dot.setAttribute("cy", y)
         dot.setAttribute("r", 0.01)
-        dot.setAttribute("fill", "black")
+        if (Math.sqrt(x*x + y*y <=1 )) {
+            dot.setAttribute("fill", "red")
+        } else {
+            dot.setAttribute("fill", "black")
+        }
         // Kommentiere hier (e)
         // Füge den Kreis zum SVG hinzu
         svg.appendChild(dot)
@@ -39,8 +43,9 @@ function animationLoop() {
     // Kommentiere hier (f)
     // Wenn running dann wiederhole diese Funktion
     if ( running === true ) {
-        if (loopCounter < 100000)
+        if (loopCounter < 1000) {
         loopCounter++
         window.requestAnimationFrame(animationLoop)
+        }
     }
 }
