@@ -32,11 +32,11 @@ function animationLoop() {
         window.requestAnimationFrame(animationLoop)
     }
     function start() {
-        const elem = document.querySelector("#script")
+        const elem = document.querySelector("#button")
         main.className = "start"
     }
     function stop() {
-        const elem = document.querySelector("#script")
+        const elem = document.querySelector("#button")
         main.className = "stop"
     
 }
