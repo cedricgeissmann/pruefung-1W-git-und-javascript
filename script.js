@@ -21,7 +21,7 @@ function animationLoop() {
     // Kommentiere hier (d)
     // hier geben wir dem Kreis befehle, wie sich deiser Bewegen soll
 
-
+    // dot = dot*100 -> ich wollt, dass 100 Kreise auf der Seite angezeigt werden pro durchlauf
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
@@ -34,7 +34,7 @@ function animationLoop() {
 
     total = total + 1
 
-    if (inside === (x*x + y*y) < 1 ) {
+    if ( inside === (x*x + y*y) < 1 ) {
         inside = inside + 1
     }
 
