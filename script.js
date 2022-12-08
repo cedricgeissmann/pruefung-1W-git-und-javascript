@@ -52,6 +52,11 @@ function stop() {
         dot.setAttribute("fill", "red")
     }
     dot.setAttribute("fill", "black")
+    if (dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")) {
+        total = total + 1
+    } else if (Math.sqrt(x*x + y*y) <= 1) {
+        inside = inside + 1
+    }
 
 }
 
