@@ -4,6 +4,8 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
+let inside = 0
+let total = 0
 
 function start() {
     running = true
@@ -29,6 +31,12 @@ function animationLoop() {
         animationLoop = +100 "circle"
         if("circle" = Math.sqrt(x*x + y*y) <= 1){
         dot.setAttribute("fill", "red")
+        }
+        if (animationLoop = +100 "circle"){
+            total = total + 1
+        }
+        if ("circle" = Math.sqrt(x*x y*y) <= 1){
+            inside = inside +1
         }
     }
     
