@@ -13,9 +13,10 @@ function start() {
     }
     function stop () {
         running = false 
+        inside = 0
+        total = 0
 
-        loopCounter= 0 for ( let i = 0; i < upperBound; i++) {
-            print(i)
+        loopCounter= 0  (  i =  i++) {
             let upperBound = parseInt(requestAnimationFrame)(){
               if (i < 1000)
             
@@ -25,7 +26,15 @@ function start() {
         window.requestAnimationFrame(animationLoop)
 
     } }
+    function animationLoop() {
+        const svg = document.querySelector("svg")
+         id="svg-elem" 
+            const circle = document.createElementNS("http://www.w3.org/2000/svg" , "circle")
+            if new circle () {
+                Math.sqrt(x*x + y*y) < = 1 
 
+            }
+        }
 
 function animationLoop() {
     
