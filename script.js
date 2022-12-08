@@ -29,7 +29,7 @@ function animationLoop() {
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
-    // 
+    // if stellt eine Bedingung dar, was bedeutet, das das untere nur überprüft wird, wenn die Bedingung erfüllt wurde.
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
