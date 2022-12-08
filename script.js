@@ -1,4 +1,6 @@
-
+inside=0
+total=0
+num=4*(inside/total)
 // Kommentiere hier (b)
 // Es wählt das dokument svg-field aus 
 const svg = document.querySelector("#svg-field")
@@ -29,7 +31,11 @@ function animationLoop() {
     // Kommentiere hier (c)    
     // Es erstell eine Form die ein Kreis ist 
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
-    
+for  (let i=0; i>100 i +100)
+
+if (circ Math.sqrt(x*x+Y*y)<1){
+    color "red"
+}
     // Kommentiere hier (d)
     // Nimmt für x eine irgend eine Zahl 
     let x = Math.random()
@@ -45,6 +51,12 @@ function animationLoop() {
     // Kommentiere hier (f)
     // running wird verglichen mit true
     if ( running === true ) {
+
+num=num 
         window.requestAnimationFrame(animationLoop)
     }
+inside= inside 
+total=total
+
+
 }
