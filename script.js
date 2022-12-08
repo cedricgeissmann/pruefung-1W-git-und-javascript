@@ -11,6 +11,10 @@ function start() {
     running = true
     window.requestAnimationFrame(animationLoop)
 }
+function stop() {
+    running = stop
+    window.requestAnimationFrame(animationLoop)
+}
 
 function animationLoop() {
     
