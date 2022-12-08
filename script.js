@@ -15,9 +15,10 @@ function start() {
     running = true
     loopCounter = 100
     if (counter = counter + 1); total = total + 1
-    window.requestAnimationFrame(animationLoop)
-if (Math.sqrt(x*x + y*y <= 1)); inside = inside + 1
- 
+    if (Math.sqrt(x*x + y*y <= 1)); inside = inside + 1
+   window.requestAnimationFrame(animationLoop)
+   
+
     
 }
 
@@ -31,6 +32,9 @@ counter = counter + 1 }
 
 function animationLoop()  {
     
+    if (counter = counter + 1); total = total + 1
+    if (Math.sqrt(x*x + y*y <= 1)); inside = inside + 1
+ 
     // Kommentiere hier (c)    
     // Man kreiert ein Element und zwar ein circle.
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
@@ -39,7 +43,7 @@ function animationLoop()  {
     // Man lässt die Werte (radius sollte 0,01 sein, cy sollte y sein, cx sollte x sein.) definieren, die Farbe des Kreises angeben und die Kreise sollen an zufälligen Orten spawnen, deswegen wurden die x und y-Koordinate als random bezeichnet
     let x = Math.random()
     let y = Math.random()
-   dot.setAttribute(Math.sqrt(x*x + y*y) <= 1, "fill", "red")
+    if (Math.sqrt(x*x + y*y) <= 1) dot.setAttribute("fill", "red")
     dot.setAttribute("cx", x)
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
