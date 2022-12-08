@@ -80,7 +80,10 @@ function requestAnimationFrame () {
     if (loopCounter < 1000) {
         requestAnimationFrame
     }
+    let num = 4*(inside / total)
 }
+
+
 
 
 
