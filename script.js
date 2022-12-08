@@ -49,6 +49,7 @@ function animationLoop() {
     if ( running === true ) {
         if (loopCounter < 1000) {
         loopCounter++
+        let num = 4 * (inside / total)
         window.requestAnimationFrame(animationLoop)
         }
     }
