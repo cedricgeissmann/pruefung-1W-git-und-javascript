@@ -50,6 +50,7 @@ function animationLoop() {
         if (loopCounter < 1000) {
         loopCounter++
         let num = 4 * (inside / total)
+        document.querySelector("#zahl").textContent = num.toFixed(4)
         window.requestAnimationFrame(animationLoop)
         }
     }
