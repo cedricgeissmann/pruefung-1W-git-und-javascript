@@ -24,6 +24,7 @@ function animationLoop() {
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
+    dot.setAttribute("100")
     // Kommentiere hier (e)
     // "Kreis wurde im svg angehängt"
     svg.appendChild(dot)
