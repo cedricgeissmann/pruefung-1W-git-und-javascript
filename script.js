@@ -9,6 +9,8 @@ let running = false
 
 function start() {
     running = true
+    inside = 0
+    total = 0
     window.requestAnimationFrame(animationLoop)
 }
 function stop() {
