@@ -1,6 +1,6 @@
 
 // Kommentiere hier (b)
-// 
+// Das HTML Element mit der id svg-field wird ausgelesen und in der Variable svg gespeichert.
 const svg = document.querySelector("#svg-field")
 
 let running = false
