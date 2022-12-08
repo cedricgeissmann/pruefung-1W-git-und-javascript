@@ -41,6 +41,7 @@ function stop() {
     total = 0
     loopCounter = 0
     loopCounter = loopCounter + 1
+    num = 4 * (inside / total)
     if (loopCounter < 1000) {
         window.requestAnimationFrame(animationLoop)
     }
