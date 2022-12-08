@@ -37,6 +37,7 @@ function animationLoop() {
     // Kommentiere hier (f)
     // Wenn running dann wiederhole diese Funktion
     if ( running === true ) {
+        if (loopCounter < 100000)
         loopCounter++
         window.requestAnimationFrame(animationLoop)
     }
