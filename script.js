@@ -6,13 +6,16 @@ const svg = document.querySelector("#svg-field")
 let running = false
 
 function start() {
+   
     running = true
     window.requestAnimationFrame(animationLoop)
     loopCounter = 100
+    
 }
 
 function stop() {
-if ( running = false )
+
+    if ( running = false )
 if ( loopCounter < 1000 )
 
 loopCounter = 0 
@@ -28,6 +31,7 @@ function animationLoop()  {
     // Man lässt die Werte (radius sollte 0,01 sein, cy sollte y sein, cx sollte x sein.) definieren, die Farbe des Kreises angeben und die x und y-Koordinate des Kreises sind Zufallszahlen.
     let x = Math.random()
     let y = Math.random()
+   dot.setAttribute(Math.sqrt(x*x + y*y) <= 1, "fill", "red")
     dot.setAttribute("cx", x)
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
