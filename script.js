@@ -35,7 +35,7 @@ function animationLoop()  {
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
-    // Man lässt die Werte (radius sollte 0,01 sein, cy sollte y sein, cx sollte x sein.) definieren, die Farbe des Kreises angeben und die x und y-Koordinate des Kreises sind Zufallszahlen.
+    // Man lässt die Werte (radius sollte 0,01 sein, cy sollte y sein, cx sollte x sein.) definieren, die Farbe des Kreises angeben und die Kreise sollen an zufälligen Orten spawnen, deswegen wurden die x und y-Koordinate als random bezeichnet
     let x = Math.random()
     let y = Math.random()
    dot.setAttribute(Math.sqrt(x*x + y*y) <= 1, "fill", "red")
