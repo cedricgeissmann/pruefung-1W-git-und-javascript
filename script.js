@@ -1,6 +1,6 @@
 
 // Kommentiere hier (b)
-// 
+// Allgemeine variabel, svg sei gleich, das geholte element aus dem Dokument mit der id "svg-field".
 const svg = document.querySelector("#svg-field")
 
 let running = false
