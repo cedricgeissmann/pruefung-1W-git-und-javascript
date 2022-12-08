@@ -44,9 +44,8 @@ function start() {
     window.requestAnimationFrame(start)
 }
 
-const button = stop
-
 function stop () {
+    
     dx = 1 
 
     window.requestAnimationFrame(stop)
