@@ -1,3 +1,6 @@
+loopcounter = 0
+
+
 
 // Kommentiere hier (b)
 // Auswahl von Elementen innerhalb anderer festgelegter Bereiche
@@ -14,7 +17,8 @@ function start() {
 
 function stop() {
     if ( running === false ) {
-        
+        loopcounter = 0 + 1
+
     }
 }
 
