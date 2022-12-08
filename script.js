@@ -55,5 +55,5 @@ function animationLoop() {
     if (circle = circle + 100) {
         Math.sqrt(x*x + y*y) <= 1
     } 
-    else (fill = blck)
+    else (fill = black)
 }
