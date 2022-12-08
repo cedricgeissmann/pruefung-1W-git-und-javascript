@@ -29,7 +29,7 @@ function animationLoop() {
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
-    // 
+    // Wenn running dann wiederhole diese Funktion
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
