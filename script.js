@@ -1,6 +1,6 @@
 
 // Kommentiere hier (b)
-// 
+// "Es wird für alle darunterstehenden Zeilen übernomen"
 const svg = document.querySelector("#svg-field")
 
 let running = false
