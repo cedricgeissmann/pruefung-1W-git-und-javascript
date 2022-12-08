@@ -17,7 +17,7 @@ function animationLoop() {
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
-    // 
+    // Man lässt die Werte definieren, die Farbe des Kreises angeben und die x und y-Koordinate des Kreises sind Zufallszahlen
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
