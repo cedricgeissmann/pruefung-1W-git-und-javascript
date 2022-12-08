@@ -8,6 +8,11 @@ let inside = 0
 let total = 0
 let num = 4 * (inside/total)
 
+//Die Zahl von inside/ total wird berechnet
+
+
+//textContent(#zahl) : num.toFixed(4)
+
 function start() {
     running = true
     window.requestAnimationFrame(animationLoop)
@@ -27,19 +32,22 @@ function stop() {
 }
 
 function animationLoop() {
-
+    
     if (animationLoop > 0){
-        animationLoop = +100 "circle"
+        animationLoop = +100 (circle)
         if("circle" = Math.sqrt(x*x + y*y) <= 1){
         dot.setAttribute("fill", "red")
         }
-        if (animationLoop = +100 "circle"){
+        if (animationLoop = +100 (circle)){
             total = total + 1
         }
         if ("circle" = Math.sqrt(x*x y*y) <= 1){
             inside = inside +1
         }
     }
+    
+
+
     
     // Kommentiere hier (c)    
     // Es erstellt ein Element mit einem Namen welcher in diesem Fall circle wäre.
