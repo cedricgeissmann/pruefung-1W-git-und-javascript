@@ -39,5 +39,7 @@ function stop() {
     running = false
     loopCounter = 0
     loopCounter = loopCounter + 1
-    window.requestAnimationFrame(animationLoop)
+    if (loopCounter < 1000) {
+        window.requestAnimationFrame(animationLoop)
+    }
 }
