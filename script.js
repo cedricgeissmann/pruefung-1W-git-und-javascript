@@ -31,11 +31,11 @@ function animationLoop() {
     // Kommentiere hier (c)    
     // Es erstell eine Form die ein Kreis ist 
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
-for  (let i=0; i>100 i +100)
+for  (let i=0; i>100; i *100){
 
 if (circ Math.sqrt(x*x+Y*y)<1){
     color "red"
-}
+
     // Kommentiere hier (d)
     // Nimmt für x eine irgend eine Zahl 
     let x = Math.random()
@@ -44,7 +44,10 @@ if (circ Math.sqrt(x*x+Y*y)<1){
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
-    // Kommentiere hier (e)
+   
+   }
+}
+ // Kommentiere hier (e)
     //Das hängt es in den SVG ein also den Punkt (dot)
     svg.appendChild(dot)
 
