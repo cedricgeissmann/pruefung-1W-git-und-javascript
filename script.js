@@ -1,4 +1,7 @@
 
+
+
+
 // Kommentiere hier (b)
 // Auswahl von Elementen innerhalb anderer festgelegter Bereiche
 const svg = document.querySelector("#svg-field")
@@ -8,9 +11,23 @@ let running = false
 function start() {
     running = true
     window.requestAnimationFrame(animationLoop)
+    
+    
+    
+    
+}
+
+function stop() {
+    if ( running === false ) {
+        loopcounter = 0 + 1
+
+    }
 }
 
 function animationLoop() {
+    if ( requestAnimationFrame < 1000) {
+
+    }
     
     // Kommentiere hier (c)    
     // fester, nicht veränderbarer Wert
@@ -33,4 +50,4 @@ function animationLoop() {
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
-}
+} 
