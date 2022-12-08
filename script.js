@@ -4,11 +4,25 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
+loopCounter = 0
+
 
 function start() {
     running = true
-    window.requestAnimationFrame(animationLoop)
+    if(loopCounter<1000){
+        loopCounter = loopCounter + 1
+        window.requestAnimationFrame(animationLoop)
+    }
 }
+
+function stop() {
+    running = false
+    if(loopCounter<100){
+        loopCounter = loopCounter + 1
+        window.requestAnimationFrame(cancelAnimationFrame)
+    }
+}
+
 
 function animationLoop() {
     
