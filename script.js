@@ -24,6 +24,7 @@ function animationLoop() {
         // Kommentiere hier (c)    
         // Erstelle einen neuen SVG Kreis
         const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
+        total++
         
         // Kommentiere hier (d)
         // Setze die Attribute für den Kreis
@@ -34,6 +35,7 @@ function animationLoop() {
         dot.setAttribute("r", 0.01)
         if (Math.sqrt(x*x + y*y <=1 )) {
             dot.setAttribute("fill", "red")
+            inside++
         } else {
             dot.setAttribute("fill", "black")
         }
