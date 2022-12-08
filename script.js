@@ -4,19 +4,19 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
-const elem = document.querySelector("#cirl")
+
 function start(STARK) {
 }  
   {  running = true
     window.requestAnimationFrame(animationLoop)
-}const btn = document.querySelector("#circl")
+}
 function stop(STOP) {
   running = false 
   loopCounter = 
-  requestAnimationFrame(loopCounter < 1000)
+  requestAnimationFrame()
 }
     
-function animationLoop() {
+function animationLooploop() {
     
     
       
