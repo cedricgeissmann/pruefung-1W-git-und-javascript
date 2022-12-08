@@ -1,5 +1,5 @@
 
-// Kommentiere hier (b)
+// Sagt das ein svg element enthalten ist (b)
 // 
 const svg = document.querySelector("#svg-field")
 
