@@ -35,13 +35,13 @@ function animationLoop() {
     }
 }
 
-const button = start
 
-function start () {
+
+function start() {
    
     dx = 1
 
-    window.requestAnimationFrame(start)
+    window.requestAnimationFrame(update)
 }
 
 const button = stop
@@ -54,6 +54,11 @@ function stop () {
 
 function stop () {
     let running = false
+    let loopCounter = 0 
 }
+
+
+
+
 
 
