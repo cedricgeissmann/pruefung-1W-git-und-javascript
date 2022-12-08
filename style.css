@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(98, 135, 71);
+    background-color: lemonchiffon;
 }
 
 h1 {
@@ -24,7 +24,7 @@ h1 {
 
 .btn-container {
     text-align: center;
-    margin: 75px;
+    margin: 20px;
 }
 
 .btn-container button {
