@@ -15,8 +15,8 @@ function animationLoop() {
     //
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
-    // 
-    // 
+    // Hier überschreibt setAttribute EIgenschaften von Objekte, für die es kein äquivalentes HTML-Attribute gibt
+    // mit Math.random kann man zufällige Zahlen zwischen 0 und 1 generieren
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
