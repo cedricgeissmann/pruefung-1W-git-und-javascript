@@ -26,7 +26,7 @@ function animationLoop() {
     // Fügt Elemente an das Ende eines Fragments ein
     svg.appendChild(dot)
 
-    // Kommentiere hier (f)
+    // hier checkt man ob die Variabel true oder false ist
     // 
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
