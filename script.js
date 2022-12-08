@@ -34,3 +34,10 @@ function animationLoop() {
         window.requestAnimationFrame(animationLoop)
     }
 }
+
+function start () {
+   
+    dx = 1
+
+    window.requestAnimationFrame(start)
+}
