@@ -37,6 +37,8 @@ function animationLoop() {
 
 function stop() {
     running = false
+    inside = 0
+    total = 0
     loopCounter = 0
     loopCounter = loopCounter + 1
     if (loopCounter < 1000) {
