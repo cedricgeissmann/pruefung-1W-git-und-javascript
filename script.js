@@ -1,22 +1,31 @@
 
-// Kommentiere hier (b)
+//Eine eckige Fläche mit etwas das rennt und die funktion ist richtig.
 // 
 const svg = document.querySelector("#svg-field")
-
+const Element = document.querySelector("#cirl")
 let running = false
 
-function start() {
-    running = true
+function start(STARK) {
+}  
+  {  running = true
     window.requestAnimationFrame(animationLoop)
 }
-
-function animationLoop() {
+const elem = document.querySelector("#cirl")
+function stop(STOP) {
+  running = false 
+  loopCounter = circle
+  requestAnimationFrame()
+}
     
-    // Kommentiere hier (c)    
-    // 
+function animationLooploop() {
+
+    
+    
+      
+    
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
-    // Kommentiere hier (d)
+   // Neues Element Kreis wird eingefügt
     // 
     let x = Math.random()
     let y = Math.random()
@@ -24,11 +33,11 @@ function animationLoop() {
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
-    // Kommentiere hier (e)
+    // xy können irgendwelche zahlen geben schwarz gefüllter kreis der einen radius von 0.01 hat er kann sich in alle richtungen frei bewegen//
+
     svg.appendChild(dot)
 
-    // Kommentiere hier (f)
-    // 
+    // Kommentiere hier
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
