@@ -1,6 +1,6 @@
 
 // Kommentiere hier (b)
-// 
+// Es zeigt variabeln
 const svg = document.querySelector("#svg-field")
 function start() {
     running = true
@@ -30,11 +30,11 @@ Math.sqrt(x*x + y*y) <= 1
 function animationLoop() {
     
     // Kommentiere hier (c)    
-    // 
+    // nochmal variabeln, die zählen
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
-    // 
+    // Beschreibungen von let
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
@@ -42,10 +42,11 @@ function animationLoop() {
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
     // Kommentiere hier (e)
+    // 
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
-    // 
+    // zeigt was if sagt
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
