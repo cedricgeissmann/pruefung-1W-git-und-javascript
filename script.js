@@ -59,6 +59,13 @@ function stop () {
     }
 }
 
+function requestAnimationFrame () {
+    if (loopCounter < 1000) {
+        requestAnimationFrame
+    }
+}
+
+
 
 
 
