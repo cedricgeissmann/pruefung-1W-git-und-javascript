@@ -1,6 +1,7 @@
 
 // svg-field in css muss immer konstant bleiben
 // 
+
 const svg = document.querySelector("#svg-field")
 
 let running = false
@@ -29,9 +30,13 @@ function animationLoop() {
     svg.appendChild(dot)
 
     // Ein sich wiederholender Animationsloop
-    // 
+    // running wird mit true verglichen
     if ( running === true ) {
+        if ( inside/total)
+        animationLoop = 0
         window.requestAnimationFrame(animationLoop)
+        let inside = + 1
+        let total = +1
     }
 }
 
@@ -41,3 +46,17 @@ function stop () {
     if (loopCounter < 1000)
     window.requestAnimationFrame(animationLoop)
 }
+
+function animationLoop () {
+    let circle = 100
+    circle("fill", "red")
+    if (circle= Math.sqrt(x*y+y*y)) {
+     circle.setAttribute("fill" , "black")   
+}
+}
+
+
+
+
+
+
